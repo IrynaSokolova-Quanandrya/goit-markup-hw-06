@@ -50,13 +50,46 @@
         <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
     </div>
 <!--Модальное окно-->
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button class="modal-button" type="button" data-modal-close>
-                
-            </button>
-        </div>
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button class="modal-button" type="button" data-modal-close>
+        </button>
+<!--Формы модального окна-->
+<div class="form">
+<form class="personal-data">
+    <b class="title">Оставьте свои данные, мы вам перезвоним</b>
+    <ul class="form-field">
+        <li>
+            <label for="user-name">Имя</label>
+            <input type="text" name="name" id="user-name"/>
+        </li>
+        
+        <li>
+            <label for="user-tel">Телефон</label>
+            <input type="tel" name="tel" id="user-tel"/>
+        </li>
+
+        <li>
+            <label for="user-mail">Почта</label>
+            <input type="mail" name="mail" id="user-mail"/>
+        
+        </li>
+        <li>
+            <label for="comments">Комментарий</label>
+            <textarea name="comments" id="user-name" rows="5" placeholder="Введите текст">
+            </textarea>
+
+        </li>
+        <li>
+             <input type="checkbox" name="checkbox" value="checkbox" checked />
+            <label for="checkbox">Соглашаюсь с рассылкой и принимаю <a href="./" class="link">Условия договора</a></label>
+        </li>
+    </ul>
+    <button class="button" type="submit">Отправить</button>
+</form>
+</div>
     </div>
+</div>
  </section>
     <!--Особенности-->
 <section class="section">
@@ -398,12 +431,12 @@
         <form class="sign-up">
         <b class="title">Подпишитесь на рассылку</b>
             <div class="form-field"> 
-                <label for="user-email">
+                <label for="user-email"></label>
                 <input type="email" name="email" id="user-email" placeholder="E-mail"/> 
-                </label>
                 <button class="button" type="submit">Подписаться</button>
-                </form>
-            </div>
+             </div>
+        </form>
+    </div>
     </div>
 </div>
 </footer>
