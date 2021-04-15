@@ -278,6 +278,7 @@ span {
 /*формы модального окна*/
 .personal-data {
   display: flex;
+  flex-direction: column;
 }
 /*секции*/
 .section-title {
