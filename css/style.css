@@ -133,7 +133,6 @@ span {
 }
 
 .contacts {
-  display: flex;
   margin-left: auto;
 }
 
@@ -525,9 +524,10 @@ span {
 }
 /*Присоединяйтесь*/
 
-.join .join-networks {
+.footer .title {
   color: var(--background-color);
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .join .social-networks-list {
@@ -552,6 +552,60 @@ span {
   background-color: var(--accent-color);
 }
 
+/*Форма для эл.почты*/
+.form {
+  min-width: 570px;
+  margin-left: 93px;
+}
+.sign-up {
+  display: flex;
+  flex-direction: column;
+}
+.email {
+  display: flex;
+  justify-content: space-between;
+}
+.form-field {
+  display: flex;
+}
+.form-field input {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  padding: 15px 16px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  background-color: #2f303a;
+}
+.form-field input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  padding-left: 29px;
+
+  background-color: var(--accent-color);
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  color: var(--background-color);
+}
+.button::after {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  padding-top: 13px;
+  padding-right: 28px;
+  margin-left: 10px;
+  content: "";
+  background-image: url("../images/icons.svg/icon\ send.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 /*PORTFOLIO*/
 
 /*filters*/

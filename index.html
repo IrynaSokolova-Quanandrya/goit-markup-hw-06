@@ -359,9 +359,9 @@
         </ul>
     </address>
     </div>
-        <!--Присоединяйтесь-->
+    <!--Присоединяйтесь-->
     <div class="join">
-        <b class="join-networks">присоединяйтесь</b>
+        <b class="title">присоединяйтесь</b>
         <ul class="social-networks-list">
             <li class="networks">
                 <a class="social-networks" href="">
@@ -393,18 +393,20 @@
             </li>
         </ul>
     </div>
+    <!--Форма для эл.почты-->
     <div class="form">
-        <b class="form-title">Подпишитесь на рассылку</b>
-        <label for="user-mail">Подписаться
-        <svg>
-            <use></use>
-        </svg>   
-        <input type="email" name="email" id="user-name"/> 
-        </label>
-
+        <form class="sign-up">
+        <b class="title">Подпишитесь на рассылку</b>
+            <div class="form-field"> 
+                <label for="user-email">
+                <input type="email" name="email" id="user-email" placeholder="E-mail"/> 
+                </label>
+                <button class="button" type="submit">Подписаться</button>
+                </form>
+            </div>
     </div>
 </div>
 </footer>
 <script src="./js/modal.js"></script>
 </body>
-</html>
+
