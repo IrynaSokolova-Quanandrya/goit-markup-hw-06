@@ -252,10 +252,7 @@ span {
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   padding: 40px;
-  width: 528px;
-  height: 581px;
 
   background-color: var(--background-color);
   border-radius: 4px;
@@ -304,7 +301,10 @@ span {
   display: flex;
   flex-direction: column;
 }
-
+.form {
+  width: 528px;
+  height: 581px;
+}
 .title {
   font-size: 20px;
   margin-bottom: 12px;
@@ -313,10 +313,7 @@ span {
   margin-bottom: 20px;
   text-align: left;
 }
-.field label:not(:last-child) {
-  font-size: 12px;
-  margin-bottom: 4px;
-}
+
 .form-field,
 .field textarea {
   height: 40px;
@@ -357,22 +354,20 @@ span {
 
 .field textarea {
   resize: none;
-  width: 448px;
   height: 120px;
-}
-.field-label {
-  margin-bottom: 30px;
+  font-size: 12px;
+  padding: 12px 16px;
 }
 
+.checkbox {
+  margin-bottom: 30px;
+}
 .field-checkbox {
   appearance: none;
 }
 .field-label .link {
   color: var(--accent-color);
   text-decoration: underline;
-}
-.checkbox {
-  margin-bottom: 30px;
 }
 .checkbox-icon {
   display: inline-block;
