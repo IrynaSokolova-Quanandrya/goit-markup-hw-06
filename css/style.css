@@ -330,12 +330,14 @@ span {
 .field:not(:last-child) {
   margin-bottom: 10px;
 }
+.field label {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
 .field {
   position: relative;
 }
-.form-field {
-  padding-left: 42px;
-}
+
 .form-icon {
   position: absolute;
   top: 50%;
