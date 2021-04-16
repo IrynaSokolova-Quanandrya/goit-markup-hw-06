@@ -379,7 +379,7 @@ span {
 .field-checkbox {
   appearance: none;
 }
-.link {
+.field-label .link {
   color: var(--accent-color);
   text-decoration: underline;
 }
