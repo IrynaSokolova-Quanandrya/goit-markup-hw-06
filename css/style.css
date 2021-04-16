@@ -678,6 +678,7 @@ span {
 }
 .footer .form-field {
   display: flex;
+  padding: 0;
 }
 .footer .form-field input {
   width: 358px;
