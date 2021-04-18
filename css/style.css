@@ -365,9 +365,9 @@ span {
 .checkbox {
   margin-bottom: 30px;
 }
-/*.field-checkbox {
+.field-checkbox {
   appearance: none;
-}*/
+}
 .field-label {
   display: block;
 }
@@ -382,7 +382,7 @@ span {
   border: 2px solid var(--title-text-color);
   border-radius: 2px;
 }
-.field-label:checked.checkbox-icon {
+.field-checkbox:checked + .checkbox-icon {
   background-color: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
