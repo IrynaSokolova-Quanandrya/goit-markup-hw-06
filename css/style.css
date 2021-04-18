@@ -368,6 +368,9 @@ span {
 .field-checkbox {
   appearance: none;
 }
+.field-checkbox:focus-within + .checkbox-icon {
+  border: 2px solid var(--accent-color);
+}
 .field-label {
   display: block;
 }
