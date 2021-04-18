@@ -365,8 +365,11 @@ span {
 .checkbox {
   margin-bottom: 30px;
 }
-.field-checkbox {
+/*.field-checkbox {
   appearance: none;
+}*/
+.field-label {
+  display: block;
 }
 .field-label .link {
   color: var(--accent-color);
@@ -379,7 +382,7 @@ span {
   border: 2px solid var(--title-text-color);
   border-radius: 2px;
 }
-.field-checkbox:checked + .checkbox-icon {
+.field-label:checked.checkbox-icon {
   background-color: var(--accent-color);
   border: 2px solid var(--accent-color);
 }
@@ -454,7 +457,9 @@ span {
   color: var(--title-text-color);
 }
 /*чем мы занимаемся*/
-
+.section.work {
+  padding-top: 0;
+}
 .image {
   display: flex;
   justify-content: space-between;
